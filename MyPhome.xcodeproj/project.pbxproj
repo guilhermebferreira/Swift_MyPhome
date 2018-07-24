@@ -12,16 +12,20 @@
 		20EAC82E2107BAB000EAF67D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC82C2107BAB000EAF67D /* Main.storyboard */; };
 		20EAC8302107BAC300EAF67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC82F2107BAC300EAF67D /* Assets.xcassets */; };
 		20EAC8332107BAC300EAF67D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC8312107BAC300EAF67D /* LaunchScreen.storyboard */; };
+		20EAC83B2107C2F000EAF67D /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAC83A2107C2F000EAF67D /* CellController.swift */; };
+		20EAC83D2107C70B00EAF67D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC83C2107C70B00EAF67D /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20EAC8252107BAB000EAF67D /* iPhome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EAC8252107BAB000EAF67D /* MyPhome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPhome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20EAC8282107BAB000EAF67D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20EAC82A2107BAB000EAF67D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20EAC82D2107BAB000EAF67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20EAC82F2107BAC300EAF67D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20EAC8322107BAC300EAF67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20EAC8342107BAC300EAF67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EAC83A2107C2F000EAF67D /* CellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
+		20EAC83C2107C70B00EAF67D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,8 @@
 		20EAC81C2107BAB000EAF67D = {
 			isa = PBXGroup;
 			children = (
-				20EAC8272107BAB000EAF67D /* iPhome */,
+				20EAC83C2107C70B00EAF67D /* Default-568h@2x.png */,
+				20EAC8272107BAB000EAF67D /* MyPhome */,
 				20EAC8262107BAB000EAF67D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +51,12 @@
 		20EAC8262107BAB000EAF67D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20EAC8252107BAB000EAF67D /* iPhome.app */,
+				20EAC8252107BAB000EAF67D /* MyPhome.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20EAC8272107BAB000EAF67D /* iPhome */ = {
+		20EAC8272107BAB000EAF67D /* MyPhome */ = {
 			isa = PBXGroup;
 			children = (
 				20EAC8282107BAB000EAF67D /* AppDelegate.swift */,
@@ -60,16 +65,17 @@
 				20EAC82F2107BAC300EAF67D /* Assets.xcassets */,
 				20EAC8312107BAC300EAF67D /* LaunchScreen.storyboard */,
 				20EAC8342107BAC300EAF67D /* Info.plist */,
+				20EAC83A2107C2F000EAF67D /* CellController.swift */,
 			);
-			path = iPhome;
+			path = MyPhome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20EAC8242107BAB000EAF67D /* iPhome */ = {
+		20EAC8242107BAB000EAF67D /* MyPhome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20EAC8372107BAC300EAF67D /* Build configuration list for PBXNativeTarget "iPhome" */;
+			buildConfigurationList = 20EAC8372107BAC300EAF67D /* Build configuration list for PBXNativeTarget "MyPhome" */;
 			buildPhases = (
 				20EAC8212107BAB000EAF67D /* Sources */,
 				20EAC8222107BAB000EAF67D /* Frameworks */,
@@ -79,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = iPhome;
+			name = MyPhome;
 			productName = iPhome;
-			productReference = 20EAC8252107BAB000EAF67D /* iPhome.app */;
+			productReference = 20EAC8252107BAB000EAF67D /* MyPhome.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 20EAC8202107BAB000EAF67D /* Build configuration list for PBXProject "iPhome" */;
+			buildConfigurationList = 20EAC8202107BAB000EAF67D /* Build configuration list for PBXProject "MyPhome" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20EAC8242107BAB000EAF67D /* iPhome */,
+				20EAC8242107BAB000EAF67D /* MyPhome */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20EAC8332107BAC300EAF67D /* LaunchScreen.storyboard in Resources */,
+				20EAC83D2107C70B00EAF67D /* Default-568h@2x.png in Resources */,
 				20EAC8302107BAC300EAF67D /* Assets.xcassets in Resources */,
 				20EAC82E2107BAB000EAF67D /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20EAC83B2107C2F000EAF67D /* CellController.swift in Sources */,
 				20EAC82B2107BAB000EAF67D /* ViewController.swift in Sources */,
 				20EAC8292107BAB000EAF67D /* AppDelegate.swift in Sources */,
 			);
@@ -282,12 +290,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 435KK8SSN6;
-				INFOPLIST_FILE = iPhome/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyPhome/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.guilhermebferreira.iPhome;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.guilhermebferreira.MyPhome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +308,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 435KK8SSN6;
-				INFOPLIST_FILE = iPhome/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyPhome/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.guilhermebferreira.iPhome;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.guilhermebferreira.MyPhome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20EAC8202107BAB000EAF67D /* Build configuration list for PBXProject "iPhome" */ = {
+		20EAC8202107BAB000EAF67D /* Build configuration list for PBXProject "MyPhome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20EAC8352107BAC300EAF67D /* Debug */,
@@ -324,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20EAC8372107BAC300EAF67D /* Build configuration list for PBXNativeTarget "iPhome" */ = {
+		20EAC8372107BAC300EAF67D /* Build configuration list for PBXNativeTarget "MyPhome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20EAC8382107BAC300EAF67D /* Debug */,

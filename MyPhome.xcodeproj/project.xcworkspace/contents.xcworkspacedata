@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:iPhome.xcodeproj">
+      location = "self:/Users/labmacmini12/Documents/guilherme_curso_ios/iPhome/MyPhome.xcodeproj">
    </FileRef>
 </Workspace>
