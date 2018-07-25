@@ -33,11 +33,14 @@ class ViewControllerContato: UIViewController, MKMapViewDelegate {
         let pin = MKPointAnnotation()
         pin.title = "MyPhome"
         pin.coordinate = CLLocationCoordinate2D(latitude: -10.17710, longitude: -48.332699)
-        
-        let zoom = MKCoordinateSpanMake(0.02,0.02)
-        
+        //cria um objeto para definir zoom em lat e longit
+        let zoom = MKCoordinateSpanMake(0.01,0.01)
+        //cria uma regiao de visualização atraves da coordenada e do zoom
         let regiao = MKCoordinateRegionMake(pin.coordinate, zoom)
         
+        //adiciona o pino no mapa
+        vrMap.addAnnotation(pin)
+        //manda a camera para a regiao especificada
         vrMap.setRegion(regiao, animated: true)
     }
     
