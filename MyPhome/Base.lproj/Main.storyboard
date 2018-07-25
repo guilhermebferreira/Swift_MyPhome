@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dkN-h3-RHI">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -62,6 +63,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="116.25" y="117.25352112676056"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="45O-oh-bdU">
+            <objects>
+                <viewController id="dkN-h3-RHI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zd8-rY-spB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awM-Op-i6j">
+                                <rect key="frame" x="80" y="152" width="160" height="284"/>
+                                <color key="backgroundColor" red="0.67306856544095961" green="1" blue="0.69490295676710501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80029233500984742" green="0.66072711155402897" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="awM-Op-i6j" firstAttribute="centerX" secondItem="jIh-kY-Nmz" secondAttribute="centerX" id="3bL-kK-5jX"/>
+                            <constraint firstItem="awM-Op-i6j" firstAttribute="centerY" secondItem="jIh-kY-Nmz" secondAttribute="centerY" id="Xmu-1D-pMN"/>
+                            <constraint firstItem="awM-Op-i6j" firstAttribute="height" secondItem="zd8-rY-spB" secondAttribute="height" multiplier="0.5" id="b9s-tG-IDe"/>
+                            <constraint firstItem="awM-Op-i6j" firstAttribute="width" secondItem="zd8-rY-spB" secondAttribute="width" multiplier="0.5" id="tN6-Uc-x7I"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jIh-kY-Nmz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pef-r2-IW4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069" y="68"/>
         </scene>
     </scenes>
 </document>
