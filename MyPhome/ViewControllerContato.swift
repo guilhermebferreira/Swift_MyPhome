@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class ViewControllerContato: UIViewController {
+class ViewControllerContato: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var vrMap: MKMapView!
     
@@ -48,9 +48,16 @@ class ViewControllerContato: UIViewController {
         }
     }
     override func viewDidLoad() {
+        createPin()
+        vrMap.delegate = self
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    //função chamada quando um pino (annotation) é clicado no mapa
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        print("PINO CLICADO")
     }
 
     override func didReceiveMemoryWarning() {
