@@ -66,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				20EAC83E2108A78100EAF67D /* ViewControllerLogin.swift */,
+				20EAC8422108EA1F00EAF67D /* ViewControllerContato.swift */,
 				20EAC8402108B15000EAF67D /* ViewControllerProfile.swift */,
 				20EAC8282107BAB000EAF67D /* AppDelegate.swift */,
 				20EAC82A2107BAB000EAF67D /* ViewController.swift */,
@@ -74,7 +75,6 @@
 				20EAC82F2107BAC300EAF67D /* Assets.xcassets */,
 				20EAC8312107BAC300EAF67D /* LaunchScreen.storyboard */,
 				20EAC8342107BAC300EAF67D /* Info.plist */,
-				20EAC8422108EA1F00EAF67D /* ViewControllerContato.swift */,
 			);
 			path = MyPhome;
 			sourceTree = "<group>";
