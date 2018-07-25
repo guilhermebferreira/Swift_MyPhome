@@ -71,26 +71,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WFo-HN-6wq">
+                                <rect key="frame" x="20" y="240" width="280" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Jb4-Es-GMD"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VQw-Db-AvJ">
+                                <rect key="frame" x="20" y="440" width="50" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="A0w-0v-xfa"/>
+                                    <constraint firstAttribute="width" constant="50" id="sNF-eS-zjk"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awM-Op-i6j">
                                 <rect key="frame" x="20" y="40" width="280" height="150"/>
                                 <color key="backgroundColor" red="0.67306856544095961" green="1" blue="0.69490295676710501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="F1x-L8-v9g"/>
+                                    <constraint firstAttribute="height" constant="150" id="XTx-rh-HIY"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.80029233500984742" green="0.66072711155402897" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="awM-Op-i6j" firstAttribute="leading" secondItem="jIh-kY-Nmz" secondAttribute="leading" constant="20" id="KyN-o3-MvM"/>
-                            <constraint firstItem="awM-Op-i6j" firstAttribute="top" secondItem="jIh-kY-Nmz" secondAttribute="top" constant="20" id="NxW-5l-8ww"/>
-                            <constraint firstItem="jIh-kY-Nmz" firstAttribute="trailing" secondItem="awM-Op-i6j" secondAttribute="trailing" constant="20" id="kQG-Pl-rpx"/>
+                            <constraint firstItem="VQw-Db-AvJ" firstAttribute="leading" secondItem="WFo-HN-6wq" secondAttribute="leading" id="BAR-wd-q2B"/>
+                            <constraint firstItem="WFo-HN-6wq" firstAttribute="centerX" secondItem="jIh-kY-Nmz" secondAttribute="centerX" id="FaK-JM-ziM"/>
+                            <constraint firstItem="jIh-kY-Nmz" firstAttribute="trailing" secondItem="awM-Op-i6j" secondAttribute="trailing" constant="20" id="h8o-ra-ERY"/>
+                            <constraint firstItem="WFo-HN-6wq" firstAttribute="top" secondItem="awM-Op-i6j" secondAttribute="bottom" constant="50" id="mqP-dC-CXV"/>
+                            <constraint firstItem="WFo-HN-6wq" firstAttribute="height" secondItem="awM-Op-i6j" secondAttribute="height" id="nDW-Y6-Dks"/>
+                            <constraint firstItem="awM-Op-i6j" firstAttribute="leading" secondItem="jIh-kY-Nmz" secondAttribute="leading" constant="20" id="oVF-2h-dL2"/>
+                            <constraint firstItem="VQw-Db-AvJ" firstAttribute="top" secondItem="WFo-HN-6wq" secondAttribute="bottom" constant="50" id="sKJ-Lr-eO1"/>
+                            <constraint firstItem="awM-Op-i6j" firstAttribute="top" secondItem="jIh-kY-Nmz" secondAttribute="top" constant="20" id="taH-3Y-Dpq"/>
+                            <constraint firstItem="WFo-HN-6wq" firstAttribute="width" secondItem="awM-Op-i6j" secondAttribute="width" id="wnG-kd-hty"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jIh-kY-Nmz"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pef-r2-IW4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1069" y="68"/>
+            <point key="canvasLocation" x="1068.75" y="67.605633802816897"/>
         </scene>
     </scenes>
 </document>
