@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -73,16 +72,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awM-Op-i6j">
-                                <rect key="frame" x="80" y="152" width="160" height="284"/>
+                                <rect key="frame" x="110" y="244" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.67306856544095961" green="1" blue="0.69490295676710501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="cM1-Jr-erD"/>
+                                    <constraint firstAttribute="height" constant="100" id="rZY-lv-JkC"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.80029233500984742" green="0.66072711155402897" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="awM-Op-i6j" firstAttribute="centerX" secondItem="jIh-kY-Nmz" secondAttribute="centerX" id="3bL-kK-5jX"/>
-                            <constraint firstItem="awM-Op-i6j" firstAttribute="centerY" secondItem="jIh-kY-Nmz" secondAttribute="centerY" id="Xmu-1D-pMN"/>
-                            <constraint firstItem="awM-Op-i6j" firstAttribute="height" secondItem="zd8-rY-spB" secondAttribute="height" multiplier="0.5" id="b9s-tG-IDe"/>
-                            <constraint firstItem="awM-Op-i6j" firstAttribute="width" secondItem="zd8-rY-spB" secondAttribute="width" multiplier="0.5" id="tN6-Uc-x7I"/>
+                            <constraint firstItem="awM-Op-i6j" firstAttribute="centerX" secondItem="jIh-kY-Nmz" secondAttribute="centerX" id="7Na-48-RgE"/>
+                            <constraint firstItem="awM-Op-i6j" firstAttribute="centerY" secondItem="jIh-kY-Nmz" secondAttribute="centerY" id="Sc0-S3-Tev"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jIh-kY-Nmz"/>
                     </view>
