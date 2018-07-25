@@ -16,6 +16,7 @@
 		20EAC83D2107C70B00EAF67D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC83C2107C70B00EAF67D /* Default-568h@2x.png */; };
 		20EAC83F2108A78100EAF67D /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAC83E2108A78100EAF67D /* ViewControllerLogin.swift */; };
 		20EAC8412108B15000EAF67D /* ViewControllerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAC8402108B15000EAF67D /* ViewControllerProfile.swift */; };
+		20EAC8432108EA1F00EAF67D /* ViewControllerContato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAC8422108EA1F00EAF67D /* ViewControllerContato.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		20EAC83C2107C70B00EAF67D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		20EAC83E2108A78100EAF67D /* ViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
 		20EAC8402108B15000EAF67D /* ViewControllerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProfile.swift; sourceTree = "<group>"; };
+		20EAC8422108EA1F00EAF67D /* ViewControllerContato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerContato.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				20EAC82F2107BAC300EAF67D /* Assets.xcassets */,
 				20EAC8312107BAC300EAF67D /* LaunchScreen.storyboard */,
 				20EAC8342107BAC300EAF67D /* Info.plist */,
+				20EAC8422108EA1F00EAF67D /* ViewControllerContato.swift */,
 			);
 			path = MyPhome;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				20EAC83F2108A78100EAF67D /* ViewControllerLogin.swift in Sources */,
 				20EAC83B2107C2F000EAF67D /* CellController.swift in Sources */,
 				20EAC82B2107BAB000EAF67D /* ViewController.swift in Sources */,
+				20EAC8432108EA1F00EAF67D /* ViewControllerContato.swift in Sources */,
 				20EAC8292107BAB000EAF67D /* AppDelegate.swift in Sources */,
 				20EAC8412108B15000EAF67D /* ViewControllerProfile.swift in Sources */,
 			);

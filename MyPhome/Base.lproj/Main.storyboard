@@ -180,16 +180,19 @@
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6s1-CN-fvb">
                                                 <rect key="frame" x="136" y="322" width="51" height="31"/>
                                             </switch>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGOFF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAz-94-WpI">
-                                                <rect key="frame" x="64" y="403" width="192" height="30"/>
-                                                <color key="backgroundColor" red="0.61459044048279854" green="0.62097231217616589" blue="0.6204156149512764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADA-DS-QRv">
+                                                <rect key="frame" x="64.5" y="403" width="192" height="30"/>
+                                                <color key="backgroundColor" red="0.51998611152396568" green="0.56559836872402869" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="7tP-AZ-Qu7"/>
+                                                    <constraint firstAttribute="height" constant="30" id="xLe-OQ-af5"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.98972277576917655" green="1" blue="0.99910350717097418" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                                <state key="normal" title="LOGOFF">
+                                                    <color key="titleColor" red="0.98989043180246428" green="1" blue="0.99384737107240395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="handleLogoff:" destination="vev-ID-7FN" eventType="touchUpInside" id="NBA-u9-X3t"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -198,18 +201,18 @@
                                             <constraint firstItem="6s1-CN-fvb" firstAttribute="top" secondItem="hRJ-CJ-ICh" secondAttribute="bottom" constant="20" id="Bfz-mn-fR3"/>
                                             <constraint firstItem="hRJ-CJ-ICh" firstAttribute="centerX" secondItem="Q3e-Ps-D4s" secondAttribute="centerX" id="Ead-Vz-XYc"/>
                                             <constraint firstAttribute="trailing" secondItem="buC-4k-y0A" secondAttribute="trailing" id="H8u-yK-j2c"/>
-                                            <constraint firstItem="FAz-94-WpI" firstAttribute="width" secondItem="Q3e-Ps-D4s" secondAttribute="width" multiplier="0.6" id="Hci-Sf-S0k"/>
+                                            <constraint firstItem="ADA-DS-QRv" firstAttribute="width" secondItem="Q3e-Ps-D4s" secondAttribute="width" multiplier="0.6" id="JhJ-pz-1xc"/>
                                             <constraint firstItem="Zrk-4N-hrJ" firstAttribute="top" secondItem="LgT-E4-hd2" secondAttribute="bottom" constant="20" id="L0P-av-gf7"/>
                                             <constraint firstItem="LgT-E4-hd2" firstAttribute="top" secondItem="Q3e-Ps-D4s" secondAttribute="top" constant="20" id="LVB-ZC-TSy"/>
                                             <constraint firstAttribute="trailing" secondItem="DYI-Vo-ULZ" secondAttribute="trailing" constant="20" id="N5o-5I-A9g"/>
                                             <constraint firstItem="buC-4k-y0A" firstAttribute="leading" secondItem="LgT-E4-hd2" secondAttribute="trailing" constant="20" id="NuJ-Xb-uOD"/>
                                             <constraint firstItem="hRJ-CJ-ICh" firstAttribute="top" secondItem="DYI-Vo-ULZ" secondAttribute="bottom" constant="20" id="PGA-AY-RVO"/>
                                             <constraint firstItem="LgT-E4-hd2" firstAttribute="leading" secondItem="Q3e-Ps-D4s" secondAttribute="leading" constant="20" id="QbW-xJ-Gdg"/>
-                                            <constraint firstItem="FAz-94-WpI" firstAttribute="top" secondItem="6s1-CN-fvb" secondAttribute="bottom" constant="50" id="RZV-1i-COB"/>
                                             <constraint firstItem="Zrk-4N-hrJ" firstAttribute="width" secondItem="LgT-E4-hd2" secondAttribute="width" id="Riq-4Z-o5T"/>
                                             <constraint firstItem="buC-4k-y0A" firstAttribute="centerY" secondItem="LgT-E4-hd2" secondAttribute="centerY" id="cza-R7-swI"/>
+                                            <constraint firstItem="ADA-DS-QRv" firstAttribute="top" secondItem="6s1-CN-fvb" secondAttribute="bottom" constant="50" id="opW-tQ-2Tg"/>
+                                            <constraint firstItem="ADA-DS-QRv" firstAttribute="centerX" secondItem="Q3e-Ps-D4s" secondAttribute="centerX" id="seT-cG-PmX"/>
                                             <constraint firstAttribute="height" constant="800" id="tZh-J1-OlM"/>
-                                            <constraint firstItem="FAz-94-WpI" firstAttribute="centerX" secondItem="Q3e-Ps-D4s" secondAttribute="centerX" id="vDy-GI-7vX"/>
                                             <constraint firstItem="DYI-Vo-ULZ" firstAttribute="top" secondItem="Zrk-4N-hrJ" secondAttribute="bottom" constant="20" id="y0e-Ls-SnV"/>
                                             <constraint firstItem="Zrk-4N-hrJ" firstAttribute="leading" secondItem="LgT-E4-hd2" secondAttribute="leading" id="z8X-46-g7w"/>
                                         </constraints>
@@ -234,10 +237,31 @@
                         <viewLayoutGuide key="safeArea" id="b5l-9F-fOl"/>
                     </view>
                     <size key="freeformSize" width="320" height="800"/>
+                    <connections>
+                        <outlet property="vrImage" destination="LgT-E4-hd2" id="D2f-xE-8zr"/>
+                        <outlet property="vrScrollOfertas" destination="DYI-Vo-ULZ" id="oei-lr-VY9"/>
+                        <outlet property="vrSwitchNotificacoes" destination="6s1-CN-fvb" id="ayy-3T-ElE"/>
+                        <outlet property="vrUsername" destination="buC-4k-y0A" id="JCv-uB-2QW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VRx-mf-RX3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1938.75" y="13.732394366197184"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0p8-y5-AE4">
+            <objects>
+                <viewController id="g46-8q-mYZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mTU-YG-RSc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Lfy-uX-2oM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fQi-sU-sSG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3172" y="-228"/>
         </scene>
     </scenes>
     <resources>
