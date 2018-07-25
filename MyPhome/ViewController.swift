@@ -30,6 +30,9 @@ class ViewController: UIViewController,
 UITableViewDelegate,
 UITableViewDataSource{
     
+    //referencia para o objeto tebleview definido no storyboard
+    @IBOutlet weak var vrTable: UITableView!
+    
     //dataset utilizado para representar as seções
     var cardapio = ["Pizzas", "Bebidas", "Sobremesas"]
     
@@ -68,8 +71,21 @@ UITableViewDataSource{
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let proximaTela = segue.destination as! ViewControllerDetail
+        
+        let linha = vrTable.indexPathForSelectedRow?.row
+        let secao = vrTable.indexPathForSelectedRow?.section
+        
+        proximaTela.title = cardapio[secao!]
+        proximaTela.imagemProduto = UIImage(named: itemsCardapio[secao!][linha!])
+        proximaTela.tituloProduto = itemsCardapio[secao!][linha!]
+        
+    }
+    
     
     override func viewDidLoad() {
+        self.title = "Cardápio"
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
