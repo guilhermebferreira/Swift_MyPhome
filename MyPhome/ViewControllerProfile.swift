@@ -15,6 +15,8 @@ class ViewControllerProfile: UIViewController {
     @IBOutlet weak var vrSwitchNotificacoes: UISwitch!
     @IBOutlet weak var vrScrollOfertas: UIScrollView!
     
+    var username:String!
+    
     var images = ["Calabresa","California","Mussarela","Portuguesa","Quatro Queijos", "Cervejas","Vinhos","Sucos", "Salada de Frutas","Sorvete","Torta Doce"]
     
     private func fillScrollView(){
@@ -39,7 +41,12 @@ class ViewControllerProfile: UIViewController {
         }
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        vrUsername.text = username
+    }
+    
     @IBAction func handleLogoff(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLoad() {

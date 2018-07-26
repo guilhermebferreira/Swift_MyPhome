@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9J7-Ne-erN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6En-hX-HT2">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -140,7 +140,7 @@
         <!--Perfil-->
         <scene sceneID="5gf-5B-o7W">
             <objects>
-                <viewController id="vev-ID-7FN" customClass="ViewControllerProfile" customModule="MyPhome" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="telaProfile" id="vev-ID-7FN" customClass="ViewControllerProfile" customModule="MyPhome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mr9-8f-rQo" userLabel="SuperView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -373,7 +373,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="hYb-Bl-pRk">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="9J7-Ne-erN" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabbar" automaticallyAdjustsScrollViewInsets="NO" id="9J7-Ne-erN" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iPH-9d-pLl">
                         <autoresizingMask key="autoresizingMask"/>
