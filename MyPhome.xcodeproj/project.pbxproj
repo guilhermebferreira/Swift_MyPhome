@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		203B7519210911A000C10B9A /* ViewControllerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203B7518210911A000C10B9A /* ViewControllerDetail.swift */; };
+		203B751B210A0E5A00C10B9A /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203B751A210A0E5A00C10B9A /* PersistenceManager.swift */; };
 		20EAC8292107BAB000EAF67D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAC8282107BAB000EAF67D /* AppDelegate.swift */; };
 		20EAC82B2107BAB000EAF67D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAC82A2107BAB000EAF67D /* ViewController.swift */; };
 		20EAC82E2107BAB000EAF67D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC82C2107BAB000EAF67D /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		203B7518210911A000C10B9A /* ViewControllerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetail.swift; sourceTree = "<group>"; };
+		203B751A210A0E5A00C10B9A /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		20EAC8252107BAB000EAF67D /* MyPhome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPhome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20EAC8282107BAB000EAF67D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20EAC82A2107BAB000EAF67D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				20EAC8312107BAC300EAF67D /* LaunchScreen.storyboard */,
 				20EAC8342107BAC300EAF67D /* Info.plist */,
 				203B7518210911A000C10B9A /* ViewControllerDetail.swift */,
+				203B751A210A0E5A00C10B9A /* PersistenceManager.swift */,
 			);
 			path = MyPhome;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				20EAC83F2108A78100EAF67D /* ViewControllerLogin.swift in Sources */,
 				203B7519210911A000C10B9A /* ViewControllerDetail.swift in Sources */,
 				20EAC83B2107C2F000EAF67D /* CellController.swift in Sources */,
+				203B751B210A0E5A00C10B9A /* PersistenceManager.swift in Sources */,
 				20EAC82B2107BAB000EAF67D /* ViewController.swift in Sources */,
 				20EAC8432108EA1F00EAF67D /* ViewControllerContato.swift in Sources */,
 				20EAC8292107BAB000EAF67D /* AppDelegate.swift in Sources */,
