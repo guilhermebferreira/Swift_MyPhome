@@ -184,6 +184,9 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6s1-CN-fvb">
                                                 <rect key="frame" x="136" y="322" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="handleSwitch:" destination="vev-ID-7FN" eventType="valueChanged" id="CfF-2R-jAP"/>
+                                                </connections>
                                             </switch>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADA-DS-QRv">
                                                 <rect key="frame" x="64.5" y="403" width="192" height="30"/>

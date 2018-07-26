@@ -43,6 +43,7 @@ class ViewControllerProfile: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         vrUsername.text = username
+        vrSwitchNotificacoes.isOn = PersistenceManager.get()
     }
     
     @IBAction func handleLogoff(_ sender: UIButton) {
@@ -59,7 +60,10 @@ class ViewControllerProfile: UIViewController {
         
     }
     
-  
+    @IBAction func handleSwitch(_ sender: UISwitch) {
+        PersistenceManager.save(value: sender.isOn)
+    }
+    
     
     override func viewDidLoad() {
         fillScrollView()	

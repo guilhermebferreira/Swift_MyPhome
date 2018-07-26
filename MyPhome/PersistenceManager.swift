@@ -14,12 +14,15 @@ class PersistenceManager: NSObject {
     class func save(value:Bool){
         let defaults = UserDefaults.standard
         defaults.set(value, forKey: "notification")
+        print("salvando status notification")
     }
     
     //tras da base local qual a opção do usuario em relação a receber notificações esta armazenada
     class func get()->Bool{
         let defaults = UserDefaults.standard
         let value = defaults.bool(forKey: "notification")
+        
+        print("retornando status notification")
         return value
     }
 
