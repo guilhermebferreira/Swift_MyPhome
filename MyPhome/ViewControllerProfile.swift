@@ -46,8 +46,20 @@ class ViewControllerProfile: UIViewController {
     }
     
     @IBAction func handleLogoff(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
+        //.actionSheet cria um alert que espera uma resposat do usuario
+        let alert = UIAlertController(title: "Atenção", message: "Deseja mesmo sair?", preferredStyle: .actionSheet)
+        alert.addAction(UIAlertAction(title: "Não", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "Sim", style: .default, handler:
+            { (UIAlertAction) in
+            self.dismiss(animated: true, completion: nil)
+            }
+        ))
+        
+        self.present(alert, animated: true, completion: nil)
+        
     }
+    
+  
     
     override func viewDidLoad() {
         fillScrollView()	
